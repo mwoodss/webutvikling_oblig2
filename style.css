@@ -1,1 +1,58 @@
-body ER no drittt og dritt
+*{
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+#header {
+	display: block;
+	border: 2 px solid black;
+	padding: 30px;
+	text-align:center;
+}
+
+#meny {
+	color: black;
+	border: 2px solid black;
+	margin: auto;
+	padding:20px;
+	text-align: center;
+	
+	
+	
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	padding: 4px;
+	font: bold 13 px arial;
+	letter-spacing: 1px;
+	
+}
+
+nav li ul {
+	display: none;
+	position: absolute;
+}
+
+nav ul li a {
+	display: inline-block;
+	margin-right: 40px;
+	line-height: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	line-height: 150%
+	
+}
+
+nav ul li:hover ul {
+	display: block;
+	background: red;
+	border: 1px solid black;
+	height: auto;
+	width: 150px;
+	margin-top: 7 px;
+	
+}
