@@ -12,9 +12,11 @@
 }
 
 #meny {
-	color: black;
+	display:flex;
+    justify-content:center;
+    
+    color: black;
 	border: 2px solid black;
-	margin: auto;
 	padding:20px;
 	text-align: center;
 }
@@ -53,17 +55,7 @@ nav ul li:hover ul {
 	margin-top: 7 px;
 	
 }
-.bokforside{
-	border-style: solid;
-	border-color: black;
-	padding:10px;
-	width: 400px;
-	float: left;
-	margin-top: 20px;
-	margin-left: 20px;
-    margin-bottom: 20px;
-	
-}
+
 a{
 	color: black;
 	margin-right: auto;
@@ -73,18 +65,33 @@ a{
 a:hover{
 	color: #8A2BE2
 }
-#footer{
-    border:2px solid black;
-    float:center;
-    clear:both;
-    text-align:center;
-    margin-top:
+
+#flex_content{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
 }
+
+#box1{
+    width:300px;
+    height:auto;
+    border:2px solid black;
+}
+
+#box2{
+    width:300px;
+    height:auto;
+    border:2px solid black;
+}
+
+#box3{
+    width:300px;
+    height:auto;
+    border:2px solid black;
+}
+
 @media screen and (max-width: 768px){
-    .bokforside{
-        width:90%;
-        float:left;
-        margin-left:auto;
-        text-align:center;
+        
     }   
 }
