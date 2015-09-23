@@ -67,20 +67,13 @@ nav ul li:hover ul {
 .bokforside{
 	border-style: solid;
 	border-color: black;
-	padding: 0 1em 0 1em;
+	padding:10px;
 	width: 250px;
-	height: 250px;
 	float: left;
 	margin-top: 40px;
 	margin-left: 20px;
 	
 }
-
-.bokforside2 {
-	position: static;
-	margin: 20 20 20 20px;
-}
-
 a{
 	color: black;
 	margin-right: auto;
@@ -98,5 +91,5 @@ a:hover{
         float:left;
         margin-left:auto;
         text-align:center;
-    }
+    }   
 }
