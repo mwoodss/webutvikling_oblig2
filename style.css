@@ -93,12 +93,10 @@ a:hover{
 }
 
 @media screen and (max-width: 768px){
-    body{
-        background-color:blue;
-    }
     .bokforside{
         width:90%;
         float:left;
         margin-left:auto;
+        text-align:center;
     }
 }
