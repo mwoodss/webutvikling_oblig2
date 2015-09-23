@@ -56,3 +56,38 @@ nav ul li:hover ul {
 	margin-top: 7 px;
 	
 }
+
+#pop {
+	border-style: solid;
+	border-color: green;
+	margin: 40 0 10 40px;
+	
+}
+
+.bokforside{
+	/*border-style: solid;
+	border-color: blue;*/
+	padding: 0 1em 0 1em;
+	width: 250px;
+	height: 250px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 20px;
+	
+}
+
+.bokforside2 {
+	position: static;
+	margin: 20 20 20 20px;
+}
+
+a{
+	color: black;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+a:hover{
+	color: #8A2BE2
+}
