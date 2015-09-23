@@ -4,6 +4,12 @@
 	
 }
 
+#logo {
+		font-family:'Tangerine', serif;
+		font-size:7.5em; /* 4.5=72px;*/
+}
+
+
 #header {
 	display: block;
 	border: 2 px solid black;
