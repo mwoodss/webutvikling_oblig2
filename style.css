@@ -65,8 +65,8 @@ nav ul li:hover ul {
 }
 
 .bokforside{
-	/*border-style: solid;
-	border-color: blue;*/
+	border-style: solid;
+	border-color: black;
 	padding: 0 1em 0 1em;
 	width: 250px;
 	height: 250px;
@@ -90,4 +90,15 @@ a{
 
 a:hover{
 	color: #8A2BE2
+}
+
+@media screen and (max-width: 768px){
+    body{
+        background-color:blue;
+    }
+    .bokforside{
+        width:90%;
+        float:left;
+        margin-left:auto;
+    }
 }
