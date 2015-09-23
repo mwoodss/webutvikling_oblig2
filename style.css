@@ -18,14 +18,13 @@
 }
 
 #meny {
-	color: black;
+	display:flex;
+    justify-content:center;
+    
+    color: black;
 	border: 2px solid black;
-	margin: auto;
 	padding:20px;
 	text-align: center;
-	
-	
-	
 }
 
 nav ul li {
@@ -63,48 +62,42 @@ nav ul li:hover ul {
 	
 }
 
-#pop {
-	border-style: solid;
-	border-color: green;
-	margin: 40 0 10 40px;
-	
-}
-
-.bokforside{
-	border-style: solid;
-	border-color: black;
-	padding: 0 1em 0 1em;
-	width: 250px;
-	height: 250px;
-	float: left;
-	margin-top: 40px;
-	margin-left: 20px;
-	
-}
-
-.bokforside2 {
-	position: static;
-	margin: 20 20 20 20px;
-}
-
 a{
 	color: black;
 	margin-right: auto;
 	margin-left: auto;
-	
 }
 
 a:hover{
 	color: #8A2BE2
 }
 
+#flex_content{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+#box1{
+    width:300px;
+    height:auto;
+    border:2px solid black;
+}
+
+#box2{
+    width:300px;
+    height:auto;
+    border:2px solid black;
+}
+
+#box3{
+    width:300px;
+    height:auto;
+    border:2px solid black;
+}
+
 @media screen and (max-width: 768px){
-    body{
-        background-color:blue;
-    }
-    .bokforside{
-        width:90%;
-        float:left;
-        margin-left:auto;
-    }
+        
+    }   
 }
