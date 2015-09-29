@@ -97,6 +97,14 @@ a:hover{
     border:2px solid black;
 }
 
+#footer{
+	
+	width: auto;
+	height: auto;
+	border: 0px solid black;
+	text-align: center;
+}
+
 @media screen and (max-width: 768px){
         
     }   
