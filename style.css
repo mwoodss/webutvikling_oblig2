@@ -10,6 +10,11 @@
 #logo {
 		font-family:'Tangerine', serif;
 		font-size:7.5em; /* 4.5=72px;*/
+		background-image: url("pictures/bakgrunn2.jpg") ;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: right;
+		
 }
 
 
@@ -143,4 +148,8 @@ a:hover{
 @media screen and (max-width: 768px){
         
     }   
+}
+
+# bakgrunn{
+	
 }
