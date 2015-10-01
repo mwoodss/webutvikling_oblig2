@@ -3,7 +3,10 @@
 	padding: 0px;
 	
 }
-
+	body {
+		background: yellow;
+	}
+	
 #logo {
 		font-family:'Tangerine', serif;
 		font-size:7.5em; /* 4.5=72px;*/
