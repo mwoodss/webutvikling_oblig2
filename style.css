@@ -78,7 +78,7 @@ a:hover{
 	color: #8A2BE2
 }
 
-.flex_content{
+#flex_content{
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
