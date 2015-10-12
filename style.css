@@ -136,11 +136,17 @@ a:hover{
 
 
 #footer{
-	
+	clear: both;
 	width: auto;
-	height: auto;
+	height: 60px;
 	border: 0px solid black;
 	text-align: center;
+	background-color: black;
+	bottom:0;
+	position: absolute;
+	width:100%;
+	color: white;
+	
 }
 
 @media screen and (max-width: 768px){
